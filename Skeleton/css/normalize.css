@@ -46,6 +46,35 @@ summary {
   display: block;
 }
 
+nav {
+  padding-right:20px;
+  padding-top:20px;
+  text-align:right;
+  position:absolute;
+}
+
+nav a {
+  text-decoration:none;
+  color: #fff;
+  padding-left:10px;
+}
+
+nav a:hover {
+  color:gray;
+  font-weight:bold;
+}
+
+#logo {
+  padding-left:20px;
+  padding-top:20px;
+  width:12%;
+  display:inline-block;
+  position:absolute;
+}
+
+#tagline {
+  text-align:center;
+}
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -183,6 +212,7 @@ sub {
 
 img {
   border: 0;
+  width:100%;
 }
 
 /**
