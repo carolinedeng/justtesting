@@ -166,6 +166,12 @@ a {
 a:hover {
   color: #0FA0CE; }
 
+/* Background Image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.background.image {
+  width:100%;
+  margin-top:0px;
+}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -394,7 +400,6 @@ hr {
   content: "";
   display: table;
   clear: both; }
-
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
