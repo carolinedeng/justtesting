@@ -28,9 +28,6 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.clear {
-  margin-top:20px;
-}
 
 .container {
   position: relative;
@@ -165,13 +162,6 @@ a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
-
-/* Background Image
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.background.image {
-  width:100%;
-  margin-top:0px;
-}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -425,40 +415,3 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
-#slideshowImage {
-  width:100%;
-}
-
-.imagegallery {
-  height:450px;
-  overflow:hidden;
-  position:relative;
-}
-
-.leftarrow {
-  position:absolute;
-  left:20px;
-  top:40%;
-  font-size:100px;
-  line-height:80px;
-}
-
-.rightarrow {
-  position:absolute;
-  right:20px;
-  top:40%;
-  font-size:100px;
-  line-height:80px;
-}
-
-.caption {
-  position:absolute;
-  bottom:0%;
-  font-size: 14px;
-  color:#fff;
-  background-color: rgba(0,0,0,0.7);
-  width:100%;
-  padding:10px;
-  padding-left:30px;
-}
