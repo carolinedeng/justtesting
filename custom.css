@@ -23,10 +23,6 @@ body {
 	min-height: 500px;
 }
 
-#title1 {
-	font-family: 'Questrial', sans-serif;
-}
-
 .paragraph {
 	font-family: 'Muli', sans-serif;
 }
@@ -37,6 +33,7 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	color: #000;
+  font-family: 'Questrial', sans-serif;
 }
 
 #title2 {
@@ -44,6 +41,16 @@ body {
 	font-weight: bold;
 	margin: auto;
 	color: #000;
+}
+
+#title3 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000;
+  font-family: 'Questrial', sans-serif;
 }
 
 #outlinetext {
