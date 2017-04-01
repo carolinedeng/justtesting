@@ -1,11 +1,42 @@
+/* Header, Body, Text */
+
 body { 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 
 #header {
   background-image:url('Skeleton/images/DSC01194.JPG');
   background-size:cover;
   min-height:500px;
+}
+
+#header1 {
+	background-image:url('Skeleton/images/TokyoSkyline.png');
+	background-size: cover;
+	min-height: 500px;
+}
+
+#title1 {
+	font-family: 'Questrial', sans-serif;
+}
+
+.paragraph {
+	font-family: 'Muli', sans-serif;
+}
+
+#title1 {
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	color: #b7b7b7;
+}
+
+.icontext {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #b7b7b7;
 }
 
 /* Navigation
@@ -16,6 +47,7 @@ nav {
   padding-top:30px;
   text-align:right;
   z-index: 3;
+  font-weight: none;
 }
 
 nav a {
@@ -55,7 +87,17 @@ nav a:hover {
   z-index: 3;
   color:#fff;
   padding-top:125px;
-  font-size:50px;
+  font-size:60px;
+  font-weight: bold;
+}
+
+#tagline1 {
+  text-align:center;
+  z-index: 3;
+  color:#fff;
+  padding-top:80px;
+  font-size:60px;
+  font-weight: bold;
 }
 
 .shortline {
